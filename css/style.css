@@ -8,6 +8,7 @@
     --poppins: 'Poppins', sans-serif;
     --inter: 'Inter', sans-serif;
     --brand_color: #573b8a;
+    --secondary_color: #ff4d4d
 }
 
 /* ----- variables css part end ----- */
@@ -123,10 +124,95 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px 0;
+    padding: 150px 0;
 }
+.hero_row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
+}
+.hero_title h3{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--inter);
+    letter-spacing: 1px;
+    color: var(--secondary_color);
+}
+.hero_title h1{
+    width: 380px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #333;
+    line-height: 45px;
+    margin: 10px 0;
+}
+.hero_title h1 span{
+    color: var(--brand_color);
+}
+.hero_title p{
+    width: 400px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--inter);
+    color: #333;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.hero_buttons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+.signup_button a {
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #573b8a, #c74cf7);
+    border-radius: 30px;
+    background-size: 100% auto;
+    font-family: var(--poppins);
+    font-size: 17px;
+    font-weight: 500;
+    padding: 14px 30px;
+   }
+   
+   .signup_button a:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #573b8a;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+.play_button a{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: var(--secondary_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
 
-
+}
+.hero_image_part{
+    width:500px;
+}
 
 /* ----- hero css part end ----- */
 /* ===== fonts link css part start  */
