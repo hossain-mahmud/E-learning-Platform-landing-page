@@ -52,18 +52,83 @@ img {
     margin: 0 auto;
 }
 /* ----- common css part end ----- */
-/* ===== fonts link css part start  */
+/* ===== main menu link css part start  */
+#main_menu{
+    width: 100%;
+    position: absolute;
+}
+.main_menu{
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_part a h2{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+}
+.nav_item_ ul{
+    display: flex;
+    gap: 22px;
+}
+.nav_item_ ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #000;
+    position: relative;
+}
+.nav_item_ ul li a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: var(--brand_color);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition:  all linear .3s;
+}
+.nav_item_ ul li a:hover::after{
+    width: 100%;
+}
+.login_part ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+.login_part ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: #000;
+}
+.login_part ul .signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 40px;
+    color: #fff;
+    background: var(--brand_color);
+} 
+/* ----- main menu css part end ----- */
+/* ===== hero css part start  */
+#hero_part{
+    background: url(../images/hero_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
 
 
 
-
-/* ----- fonts link css part end ----- */
-/* ===== fonts link css part start  */
-
-
-
-
-/* ----- fonts link css part end ----- */
+/* ----- hero css part end ----- */
 /* ===== fonts link css part start  */
 
 
