@@ -293,12 +293,40 @@ img {
 }
 
 /* ----- awesome css part end ----- */
-/* ===== awesome css part start  */
-
-
-
-
-/* ----- awesome css part end ----- */
+/* ===== footer css part start  */
+#footer{
+    padding: 100px 0;
+}
+.footer_row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_column{
+    width: 400px;
+}
+.footer_paragraph p{
+        font-size: 16px;
+        font-weight: 400;
+        font-family: var(--inter);
+        color: #333;
+        line-height: 24px;
+        margin: 16px 0;
+}
+.footer_icons ul{
+    display: flex;
+    gap: 25px;
+}
+.footer_icons ul li a{
+    font-size: 25px;
+    color: var(--secondary_color);
+    transition: all linear .3s;
+}
+.footer_icons ul li a:hover{
+    color: var(--brand_color);
+}
+/* ----- footer css part end ----- */
 /* ===== awesome css part start  */
 
 
