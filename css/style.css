@@ -239,6 +239,47 @@ img {
     color: #333;
     margin: 0 auto;
 }
+.awesome_cards{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.awesomeCard_item{
+    width: 350px;
+    padding: 40px 25px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    text-align: center;
+}
+.awesomeCard_icon img{
+    width: 100px;
+}
+.awesomeCard_text h2{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #333;
+    margin: 30px 0 10px 0;
+}
+.awesomeCard_text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--inter);
+    color: #333;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.awesomeCard_button a{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--brand_color);
+    transition: all linear .3s;
+}
+.awesomeCard_button a:hover{
+    color: var(--secondary_color);
+}
 
 /* ----- awesome css part end ----- */
 /* ===== awesome css part start  */
