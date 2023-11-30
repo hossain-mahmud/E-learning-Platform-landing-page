@@ -205,7 +205,6 @@ img {
     justify-content: center;
     align-items: center;
     color: #fff;
-
 }
 .hero_image_part{
     width:500px;
@@ -251,6 +250,19 @@ img {
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     text-align: center;
+    transition: all linear .3s;
+}
+.awesomeCard_item:hover{
+    background: var(--brand_color);
+}
+.awesomeCard_item:hover .awesomeCard_text h2{
+    color: #fff;
+}
+.awesomeCard_item:hover .awesomeCard_text p{
+    color: #fff;
+}
+.awesomeCard_item:hover .awesomeCard_button a{
+    color: var(--secondary_color);
 }
 .awesomeCard_icon img{
     width: 100px;
@@ -276,9 +288,6 @@ img {
     font-family: var(--poppins);
     color: var(--brand_color);
     transition: all linear .3s;
-}
-.awesomeCard_button a:hover{
-    color: var(--secondary_color);
 }
 
 /* ----- awesome css part end ----- */
