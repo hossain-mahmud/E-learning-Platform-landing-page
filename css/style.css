@@ -180,10 +180,10 @@ img {
     background-position: right center;
     background-size: 200% auto;
     -webkit-animation: pulse 2s infinite;
-    animation: pulse512 1.5s infinite;
+    /* animation: pulse512 1.5s infinite; */
    }
    
-   @keyframes pulse512 {
+   /* @keyframes pulse512 {
     0% {
      box-shadow: 0 0 0 0 #573b8a;
     }
@@ -195,7 +195,7 @@ img {
     100% {
      box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
     }
-   }
+   } */
 .play_button a{
     width: 55px;
     height: 55px;
