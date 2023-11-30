@@ -124,7 +124,7 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 150px 0;
+    padding: 150px 0 100px 0;
 }
 .hero_row{
     display: flex;
@@ -177,9 +177,6 @@ img {
     font-size: 17px;
     font-weight: 500;
     padding: 14px 30px;
-   }
-   
-   .signup_button a:hover {
     background-position: right center;
     background-size: 200% auto;
     -webkit-animation: pulse 2s infinite;
@@ -213,11 +210,52 @@ img {
 .hero_image_part{
     width:500px;
 }
-
 /* ----- hero css part end ----- */
-/* ===== fonts link css part start  */
+/* ===== awesome css part start  */
+#awesome{
+    padding: 50px 0;
+}
+.awesome_head{
+    text-align: center;
+}
+.awesome_head h3{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--secondary_color);
+}
+.awesome_head h1{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: var(--poppins);
+    color: #333;
+    margin: 5px 0;
+}
+.awesome_head p{
+    width: 500px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--inter);
+    color: #333;
+    margin: 0 auto;
+}
+
+/* ----- awesome css part end ----- */
+/* ===== awesome css part start  */
 
 
 
 
-/* ----- fonts link css part end ----- */
+/* ----- awesome css part end ----- */
+/* ===== awesome css part start  */
+
+
+
+
+/* ----- awesome css part end ----- */
+/* ===== awesome css part start  */
+
+
+
+
+/* ----- awesome css part end ----- */
